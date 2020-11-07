@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy bird</title>
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+  <div class="flappy-intro container">
+    <h1>Flappy Bird</h1>
+    <p class="btn" onclick="start()">Start</p>
+  </div>
+  <div class="border-left"></div>
+  <div class="game-box">
+    <div class="sky">
+      <div class="game-over"></div>
+      <p class="score">Score: <span id="score">0</span></p>
+      <!--  <div class="pipe"></div> --> 
+      <div class="bird">
+
+      </div>
+    </div>
+  </div>
+    <div class="ground-box">
+      <div class="ground-moving"></div>
+    </div>
+  
+  <div class="border-right"></div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
